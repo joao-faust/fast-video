@@ -1,0 +1,10 @@
+{
+  "name": "fast-video",
+  "description": "This is a extension for chrome to let your videos fast",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "./public/index.html"
+  }
+}
